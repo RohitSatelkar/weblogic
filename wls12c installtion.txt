@@ -1,0 +1,251 @@
+ cd /opt/
+    5  ls -lrt
+    6  mkdir dumps
+    7  cd -
+    8  cp -pr jdk-11.0.23_linux-x64_bin.tar.gz fmw_14.1.1.0.0_wls_lite_Disk1_1of1.zip /opt/dumps/
+    9  ls -lrt
+   10  tar -xvzf jdk-11.0.23_linux-x64_bin.tar.gz
+   11  ls -lrt
+   12  pwd
+   13  cd /opt/dumps/
+   14  ls -lrt
+   15  tar -xvzf jdk-11.0.23_linux-x64_bin.tar.gz
+   16  ls lrt
+   17  ls -lrt
+   18  cd /u01/java/
+   19  ls -lrt
+   20  mkdir jdk
+   21  cd /opt/dumps/
+   22  ls -lrt
+   23  unzip fmw_14.1.1.0.0_wls_lite_Disk1_1of1.zip
+   24  ls -lrt
+   25  rm -rf fmw_14.1.1.0.0_wls_lite_Disk1_1of1.zip
+   26  ls -lrt
+   27  mkdir -p /opt/java/jdk
+   28  mv jdk-11.0.23 /opt/java/
+   29  cd /opt/java/
+   30  ls -lrt
+   31  ln -sf jdk /opt/java/jdk-11.0.23/
+   32  ls -lrt
+   33  ln -sf /opt/java/jdk /opt/java/jdk-11.0.23/
+   34  ls -lrt
+   35  cd jdk
+   36  ls -lrt
+   37  ln -sf /opt/java/jdk-11.0.23 /opt/java/jdk
+   38  ls -lrt
+   39  pwd
+   40  unlink jdk-11.0.23/
+   41  cd ../
+   42  ls -lrt
+   43  rm -rf jdk
+   44  ls -lrt
+   45  mkdir jdk
+   46  ln -sf /opt/java/jdk-11.0.23 /opt/java/jdk
+   47  ls -lrt
+   48  cd jdk
+   49  ls -lrt
+   50  cd ../
+   51  ls -lrt
+   52  rm -rf jdk
+   53  ls -lrt
+   54  cd jdk-11.0.23/
+   55  ls -lrt
+   56  unlink jdk
+   57  ls -lrt
+   58  cd /opt/java/
+   59  ls -lrt
+   60  exit
+   61  sudo -i
+   62  cd /opt/java/
+   63  ls -lrt
+   64  ln -sf /opt/java/jdk-11.0.23/ /opt/java/jdk
+   65  ls -lrt
+   66  cd jdk
+   67  ls -lrt
+   68  cd /home/
+   69  ls -lrt
+   70  cd wls/
+   71  ls -lrta
+   72  vi .bashrc
+   73  exit
+   74  vi /home/wls/.bashrc
+   75  java -version
+   76  exit
+   77  cd /opt/java/jdk
+   78  cd bin/
+   79  pwd
+   80  vi /home/wls/.bashrc
+   81  cd /home/wls/
+   82  ls -lrta
+   83  vi .bash_profile
+   84  exit
+   85  vi /home/wls/.bash_profile
+   86  exit
+   87  vi /home/wls/.bash_profile
+   88  source ~./.bashrc
+   89  cd /home/wls/
+   90  source ~./.bashrc
+   91  echo $JAVA_PATH
+   92  echo $JAVA_HOME
+   93  source ~/.bashrc
+   94  echo $JAVA_HOME
+   95  exit
+   96  java -version
+   97  echo $JAVA_HOME
+   98  vi /home/wls/.bash_profile
+   99  cd /opt/dumps/
+  100  ls -lrt
+  101  echo #?
+  102  echo $?
+  103  cd -ff
+  104  echo $?
+  105  ls -lrt
+  106  cd /u01/java/jdk/
+  107  ls -lrt
+  108  cd /u01/
+  109  ls -lrt
+  110  rm -rf java/
+  111  cd /opt/java/jdk/bin/
+  112  java -jar /opt/dumps/fmw_14.1.1.0.0_wls_lite_generic.jar
+  113  ip r
+  114  exit
+  115  clear
+  116  cd /opt/java/jdk/bin/
+  117  java -jar /opt/dumps/fmw_14.1.1.0.0_wls_lite_generic.jar
+  118  export DISPLAY=:0
+  119  java -jar /opt/dumps/fmw_14.1.1.0.0_wls_lite_generic.jar
+  120  sudo vi /etc/ssh/sshd_config
+  121  sudo service sshd restart
+  122  cd /opt/dumps/
+  123  /opt/java/jdk/bin/java -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  124  exit
+  125  xclock&
+  126  echo $DISPLAY
+  127  /opt/java/jdk/bin/java -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  128  cd /opt/dumps/
+  129  /opt/java/jdk/bin/java -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  130  cd /opt/dumps/
+  131  /opt/java/jdk/bin/java -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  132  echo $DISPLAY
+  133  clear
+  134  /opt/java/jdk/bin/java -Djava.io.tmpdir=/opt -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  135   xauth list
+  136  /opt/java/jdk/bin/java -Djava.io.tmpdir=/opt -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  137  tail -100f /opt/OraInstall2024-08-16_07-07-02PM.
+  138  tail -100f /opt/OraInstall2024-08-16_07-07-02PM
+  139  cd /opt/OraInstall2024-08-16_07-07-02PM
+  140  ls -lrt
+  141  less launcher2024-08-16_07-07-02PM.log
+  142  /opt/java/jdk/bin/java -Djava.io.tmpdir=/opt -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  143  history
+  144  cd /opt/java/jdk/bin/
+  145  java -jar /opt/dumps/fmw_14.1.1.0.0_wls_lite_generic.ja
+  146  java -jar /opt/dumps/fmw_14.1.1.0.0_wls_lite_generic.jar
+  147  java -version
+  148  clear
+  149  pwd
+  150  ls -lrt
+  151  java -jar /opt/dumps/fmw_14.1.1.0.0_wls_lite_generic.jar
+  152  cd /
+  153  ls -lrt
+  154  cd /opt/
+  155  df -h
+  156  cd /
+  157  du -sh *
+  158  du -sh opt/
+  159  cd /opt/java/
+  160  ls -lrt
+  161  unlink jdk
+  162  ls -lrt
+  163  rm -rf jdk-11.0.23/
+  164  ls -lrt
+  165  cd /vagrant/
+  166  ls -lrt
+  167  exit
+  168  cd /vagrant/
+  169  ls -lrt
+  170  rm -rf jdk-11.0.23_linux-x64_bin.tar.gz
+  171  sudo -i
+  172  cd /opt/dumps/
+  173  ls -lrt
+  174  tar -xvzf jdk-11.0.21_linux-x64_bin.tar.gz
+  175  ls -lrt
+  176  mv jdk-11.0.21 /opt/java
+  177  cd /opt/java
+  178  ln -sf /opt/java/jdk-11.0.21 /opt/java/jdk
+  179  ls -lrt
+  180  cd jdk
+  181  ls -lrt
+  182  java -version
+  183  cd /opt/dumps/
+  184  history
+  185  /opt/java/jdk/bin/java -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  186  clear
+  187  /opt/java/jdk/bin/java -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  188  exit
+  189  clear
+  190  cd /opt/dumps/
+  191  java -jar fmw_14.1.1.0.0_wls_lite_generic.jar
+  192  cd /u01/app/Oracle/
+  193  ls -lrt
+  194  cd oraInventory/
+  195  ls -lrta
+  196  cd ../Middleware/
+  197  ls -lrt
+  198  cd Oracle_Home/
+  199  ls -lrt
+  200  cat oraInst.loc
+  201  java -jar fmw_14.1.1.0.0_wls_lite_generic.jar -help
+  202  cd /opt/dumps/
+  203  java -jar fmw_14.1.1.0.0_wls_lite_generic.jar -help
+  204  clear
+  205  cd
+  206  ls -lrt
+  207  cat response-gui
+  208  vi oraInst.Loc
+  209  ls -lrt
+  210  cat oraInst.Loc
+  211  rm -rf /u01/app/Oracle/
+  212  cd /opt/dumps/
+  213  java -jar fmw_14.1.1.0.0_wls_lite_generic.jar -silent -responsefile ~/response-gui -invPtrLoc ~/oraInst.Loc
+  214  cd /u01/app/Oracle/
+  215  ls -lrt
+  216  cd Middleware/
+  217  ls -lrt
+  218  cd Oracle_Home/
+  219  ls -lrt
+  220  pwd
+  221  cd wlserver/common/bin/
+  222  ./config.sh
+  223  pwd
+  224  cd ../../../user_projects/domains/dev_tel_domain/
+  225  cd /u01/app/
+  226  mkdir domains
+  227  cd -
+  228  ln -sf /u01/app/Oracle/Middleware/Oracle_Home/user_projects/domains/dev_tel_domain /u01/app/domains/dev_tel_domain
+  229  cd domains/
+  230  ls -lrt
+  231  cd /dev/
+  232  cd /u01/app/domains/dev_tel_domain/
+  233  ls -lrt
+  234  cd config/
+  235  ls -lrt
+  236  vi config.xml
+  237  cd ../
+  238  cd bin/
+  239  nohup ./startWebLogic.sh &
+  240  tail -100f nohup.out
+  241  nohup ./startWebLogic.sh &
+  242  tail -100f nohup.out
+  243  cd ../config/
+  244  vi config
+  245  vi config.xml
+  246  cat /etc/hosts
+  247  sudo -i
+  248  ps -ef |grep java
+  249  kill -9 24455
+  250  ps -ef |grep java
+  251  cd domain
+  252  cd /u01/app/domains/dev_tel_domain/bin/
+  253  nohup ./startWebLogic.sh &
+  254  tail -100f nohup.out
