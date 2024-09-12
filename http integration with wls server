@@ -1,0 +1,55 @@
+#plugin Download:
+
+https://www.oracle.com/middleware/technologies/webtier-downloads.html#
+download and place in the httpd server module folder 
+---------------------------------------------------------
+
+#Plugin Configuration in apache httpd server
+vi httpd.conf
+-->LoadModule weblogic_module /opt/httpd/modules/mod_wl_24.so
+
+#for application mapping
+vi httpd-vhosts.conf
+  <Location /context>
+        SetHandler weblogic-handler
+        WebLogicHost ip
+        WebLogicPort portNumber
+  </Location>
+
+For Cluster: 
+  <Location /context>
+        SetHandler weblogic-handler
+        WebLogicCluster hostip:port,hostip:port
+  </Location>
+---------------------------------------------------------------
+
+####for making httpd.service 
+ sudo vi  /etc/systemd/system/httpd.service
+add below lines in the httpd.service file-->
+
+[Unit]
+Description=Apache Web Server
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/local/apache2/bin/apachectl start
+ExecReload=/usr/local/apache2/bin/apachectl graceful
+ExecStop=/usr/local/apache2/bin/apachectl stop
+PIDFile=/usr/local/apache2/logs/httpd.pid
+PrivateTmp=true
+export LD_LIBRARY_PATH=/usr/local/apache2/modules
+
+[Install]
+WantedBy=multi-user.target
+----------------------------------------------------
+ sudo systemctl daemon-reload
+ sudo systemctl status httpd.service
+-----------------------------------------------------
+ home>domain>Web Application
+  WebLogic Plugin Enabled //enabled this check box 
+
+########
+weblogic side changes:
+in admin console go to 
+
