@@ -46,10 +46,10 @@ WantedBy=multi-user.target
  sudo systemctl daemon-reload
  sudo systemctl status httpd.service
 -----------------------------------------------------
- home>domain>Web Application
-  WebLogic Plugin Enabled //enabled this check box 
+
 
 ########
 weblogic side changes:
 in admin console go to 
-
+ home>domain>Web Application
+  WebLogic Plugin Enabled //enabled this check box 
